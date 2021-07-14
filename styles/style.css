@@ -1,0 +1,122 @@
+
+body{
+    margin: 0%;
+}
+img{
+    width: 100%;
+}
+/*----------------------- header css-------------------- */
+.tutal-content{padding: 20px;line-height: 50px;background-color: #0e0938;}
+.bener-content{
+    display: flex;
+    justify-content: space-around;
+}
+.content{
+    font-weight: bold;
+    width: 321px;
+    color: yellow;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 50px;
+    text-align: left;
+}
+
+button a{
+    text-decoration: none;
+    color: whitesmoke;
+    
+}
+
+button{
+    color: #f1e6e6;
+    font-size: 20px;
+    border-radius: 5px;
+    background: #e91e63;
+    border: 2px solid #daad8e;
+    padding: 8px;
+}
+
+
+.image img{
+    width: 378px;
+}
+/*----------------------- header css end-------------------- */
+/*-------------------------- hover css-------------------- */
+.tutal-content :hover{
+    transition: all 0.5s;
+        background-color: rgb(0, 26, 255);
+    }
+/*-------------------------- hover css end-------------------- */
+/* --------------------section css------------------- */
+section.blogs-blog {
+    display: flex;
+    justify-content: space-evenly;
+}
+.blogs-blog{
+    padding-top: 50px;
+    margin-bottom: 50px;
+}
+
+.blogs{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    
+}
+.blog{
+    padding: 12px;
+    width: 214px;
+}
+h3 {
+    font-family: arial black;
+    font-size: 20px;
+}
+p {
+  
+    font-size: 13px;
+  
+    color: #7b7b7b;
+}
+
+article.articale-blog {
+    margin: 20px;
+    box-shadow: 0px 0px 12px -5px;
+}
+/* --------------------section css end------------------- */
+/* ------------------footer css----------------------- */
+.img img {
+    width: 300px;
+}
+.icon {
+    text-align: center;
+    font-size: 25px;
+}
+.copyright p {
+    font-size: 20px;
+    font-family: arial black;
+
+}
+/* ------------------footer css end----------------------- */
+/* -------------------------------media query -------------------------- */
+@media only screen and (max-width: 688px) {
+    .blogs{
+      
+     grid-template-columns: repeat(1, 1fr);
+    }
+    
+    .bener-content{
+       width: 100%;
+       display:grid;
+       grid-template-columns: repeat(1, 1fr);
+    }
+    .footer-content{
+        width: 100%;
+        display:grid;
+        grid-template-columns: repeat(1, 1fr);  
+    }
+    }
+    /* -------------------------------media query  end-------------------------- */
+
+ 
+
+ 
+        
+         
